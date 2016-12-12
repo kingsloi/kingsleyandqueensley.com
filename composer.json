@@ -9,7 +9,6 @@
         "laravel/lumen-framework": "5.2.*",
         "vlucas/phpdotenv": "~2.2",
         "wn/lumen-generators": "^1.1",
-        "devfactory/minify": "1.0.*",
         "nesbot/carbon": "^1.21"
     },
     "require-dev": {
