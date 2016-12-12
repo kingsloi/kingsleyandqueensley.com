@@ -6,13 +6,13 @@ return [
      * Wedding date
      * format: dd/mm/yyyy hh:mm
      */
-    'date' => '23/09/2017 18:30',
+    'date' => '23/09/2016 18:30',
 
     /**
      * RSVP cut off
      * format: dd/mm/yyyy hh:mm
      */
-    'rsvp_cutoff' => '22/09/2017 23:59',
+    'rsvp_cutoff' => '22/09/2016 23:59',
 
     /**
      * Guestlist Password
