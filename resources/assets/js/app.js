@@ -37,7 +37,14 @@ const app = new Vue({
 
         rsvp: function () {
             let vm = this;
-            if (this.names === "" || this.count === 0) return false;
+            if (this.email === "") {
+                $('.email-input').focus();
+                return false;
+            }
+            if (this.names === "") {
+                $('.names-input').focus();
+                return false;
+            }
             this.$http.post('/rsvp', { names: this.names, count: this.count, answer: this.answer, email: this.email })
                 .then(this.onComplete.bind(this))
                 .catch(this.onError.bind(this));

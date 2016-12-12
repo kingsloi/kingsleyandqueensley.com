@@ -188,12 +188,12 @@
 
                                             <div class="names-holder">
                                                 <span class="step">1</span>
-                                                <input type="email" class="form-control" placeholder="Contact Email" v-model.trim="email"/>
+                                                <input type="email" class="email-input form-control" placeholder="Contact Email" v-model.trim="email"/>
                                             </div>
 
                                             <div class="names-holder">
                                                 <span class="step">2</span>
-                                                <input type="text" class="form-control" placeholder="Your Name / All Names" v-model.trim="names" v-on:focus="toggleCommaInfo" v-on:blur="toggleCommaInfo"/>
+                                                <input type="text" class="names-input form-control" placeholder="Your Name / All Names" v-model.trim="names" v-on:focus="toggleCommaInfo" v-on:blur="toggleCommaInfo"/>
                                                 <div class="people-by-comma">Separate people by a comma (,) please!</div>
                                             </div>
 
