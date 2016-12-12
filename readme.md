@@ -3,7 +3,7 @@
 
 [![Build Status](https://travis-ci.org/kingsloi/kingsleyandqueensley.com.svg?branch=master)](https://travis-ci.org/kingsloi/kingsleyandqueensley.com)
 
-I got married earlier this year and wanted to automate as much as I could. The wife and I were dreading the invitations and then keeping track of who was/wasn't coming. I bought a template (forgot which, todo: add link), customised it. I wasn't happy with the amount of JS in it, so I integrated Vue 2.0 for the frontend, and Laravel's Lumen for a backend API. It's a bit overkill, but tried to keep it as simple as possible, rather than as fast as possible.
+I got married earlier this year and wanted to automate as much as I could. The wife and I were dreading the invitations and then keeping track of who was/wasn't coming. I bought a template ([Union - Wedding Template](https://themeforest.net/item/union-wedding-template-with-page-builder/10450812)), customised it. I wasn't happy with the amount of JS in it, so I integrated Vue 2.0 for the frontend, and Laravel's Lumen for a backend API. It's a bit overkill, but tried to keep it as simple as possible, rather than as fast as possible.
 
 ![](screenshot.png)
 
@@ -38,6 +38,8 @@ vendor/bin/phpunit
     * Initial Commit
 
 ## Meta
+
+Originally from Theme Forest - [Union - Wedding Template](https://themeforest.net/item/union-wedding-template-with-page-builder/10450812). Edited to fit my needs. CSS/HTML not necessarily by me.
 
 Kingsley Raspe – [kingsley.raspe@googlemail.com](mailto:kingsley.raspe@googlemail.com) - [LinkedIn](https://www.linkedin.com/in/kingsleyraspe)
 
